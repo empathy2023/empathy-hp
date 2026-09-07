@@ -165,6 +165,17 @@
   @media(max-width:900px){.biz-grid{grid-template-columns:repeat(2,1fr);}}
   @media(max-width:600px){.biz-grid{grid-template-columns:1fr;}}
 
+  /* ---------- recruit preview ---------- */
+  .recruit-preview{background:var(--white);}
+  .recruit-lead{display:grid;grid-template-columns:1.05fr 1fr;gap:72px;align-items:start;}
+  .recruit-copy p{color:#555;font-size:.94rem;margin:20px 0 30px;}
+  .recruit-list{border-top:1px solid #e5e5e5;}
+  .recruit-item{display:grid;grid-template-columns:42px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid #e5e5e5;}
+  .recruit-item .num{font-family:'Zen Kaku Gothic New',sans-serif;font-size:.75rem;color:var(--orange);font-weight:700;letter-spacing:.08em;padding-top:3px;}
+  .recruit-item h3{font-size:1rem;margin-bottom:5px;}
+  .recruit-item p{font-size:.84rem;color:#666;line-height:1.75;}
+  @media(max-width:820px){.recruit-lead{grid-template-columns:1fr;gap:40px;}}
+
   /* ---------- brand colors strip ---------- */
   .brandstrip{background:var(--charcoal);padding:24px 0;}
   .brandstrip .section-head{margin-bottom:14px;}
@@ -311,6 +322,31 @@
     </div>
     <div class="biz-card" style="--bc:#1E1E1E">
       <div><div class="tag">CORE｜営業代行</div><h3>通信キャリア営業</h3><p>あらゆる事業の起点となる、通信キャリア・法人向け営業代行事業を展開しています。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="recruit-preview" id="recruit">
+  <div class="wrap recruit-lead">
+    <div class="recruit-copy reveal">
+      <div class="section-eyebrow">RECRUIT</div>
+      <h2 class="disp">経験を、続けられる仕事に。</h2>
+      <p>山口を中心に、広島・福岡・四国へ。現在、イベントクローザーを最優先で募集しています。キャッチ経験者の育成枠、未経験から挑戦する方向けの募集枠も別に設けています。</p>
+      <a class="btn" href="https://empathy2023.github.io/empathy-LP/">募集内容を詳しく見る</a>
+    </div>
+    <div class="recruit-list reveal">
+      <div class="recruit-item">
+        <div class="num">01</div>
+        <div><h3>イベントクローザー</h3><p>正社員を重点募集。月給22万円・賞与年3回。</p></div>
+      </div>
+      <div class="recruit-item">
+        <div class="num">02</div>
+        <div><h3>キャッチ経験者</h3><p>これまでの現場経験を活かし、クローザーを目指す育成枠。</p></div>
+      </div>
+      <div class="recruit-item">
+        <div class="num">03</div>
+        <div><h3>未経験者</h3><p>経験者とは別枠で募集。月給20万円・賞与年3回。</p></div>
+      </div>
     </div>
   </div>
 </section>
